@@ -1,0 +1,102 @@
+body {
+    background: black;
+    font-family: "Quicksand", sans-serif;;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    min-height: 600px;
+    border: 6px solid white;
+    border-radius: 20px;
+    margin: 100px auto 0 auto;
+    background-color: white;
+    background-color: #fffcf2;
+}
+#main {
+    min-height: 200px;
+    background-image: url("https://www.bilgoraj.pl/media/uploads/pages/d7/1007b.jpg");
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main h1 {
+    background-color: #457b9d;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    color: #fffcf2;
+    text-shadow: 0 0 2px black;
+}
+#main h3 {
+    max-width: 270px;
+    background-color: #1d3557;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px auto;
+    color: #fffcf2;
+    text-shadow: 0 0 2px black;
+}
+#activities {
+    background-color: #fefae0;
+    color: #1d3557;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 0.1px #1d3557;
+    padding: 0 0 10px 0;
+}
+#activities h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+#activities-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 0 0 0.1px #1d3557;
+}
+#activities-list h3 {
+    font-size: 12px;
+}
+.active {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.active img {
+    max-width: 100px;
+    max-height: 75px;
+}
+.active p {
+    margin: 0 0 0;
+}
+#guide {
+    margin: 10px auto 0 auto;
+    max-width: 300px;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: #1d3557;
+    text-shadow: 0 0 0.5px black;
+    background-color: #fffcf2;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 4px solid ;
+    text-align: center;
+    font-size: 12px;
+    background-color: #a8dadc;
+}
+
+#guide img {
+    border-radius: 10px;
+    margin: 25px 10px;
+    width: 100px;
+    height: 100px;
+}
